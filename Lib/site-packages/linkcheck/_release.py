@@ -1,0 +1,7 @@
+__app_name__ = "LinkChecker"
+__version__ = "10.3.0"
+__release_date__ = "2023-09-18"
+__copyright_year__ = "2023"
+__author__ = "LinkChecker Authors"
+__url__ = "https://linkchecker.github.io/linkchecker/"
+__support_url__ = "https://github.com/linkchecker/linkchecker/issues"
