@@ -5,6 +5,16 @@ import requests
 
 import telebot
 
+
+# Importing Conditions 
+try:
+    import config
+except ImportError:
+    print("Can not import config file")
+    print("Make sure that you copy config.py.template to config.py")
+    exit() 
+
+
 # debug feature
 print("PROJECT START")
 
@@ -19,10 +29,6 @@ def start_message(message):
     BOT.send_message(message.chat.id, 'Bot started')
 
 
-# Conditions for search
-CONDITION_1 = ["PlayStation 5", "100 ₽"]
-CONDITION_2 = ["Air Pods Pro 2", "100 ₽"]
-CONDITION_3 = ["HomePod mini", "100 ₽"]
 
 # Results  variables
 RESULT = []
