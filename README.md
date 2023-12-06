@@ -39,3 +39,7 @@ This is fixed with this simple check:
 if add_page_prefix(url, urlPageIndex) == "https://biggeek.ru/catalog/uslugi?page=2":
   break
 ```
+
+Threads work poorly and you can run a maximum of one,
+if you try more, the bot will simply stop responding to commands.
+Therefore, everything related to them can be simply deleted if desired, **idk how to fix this**
