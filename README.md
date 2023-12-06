@@ -30,7 +30,7 @@ python main.py
 ## Variables
 **Change in `config.py`**
 - `Debug` - Set to `True` for verbose realtime printing to console for debugging or development **not necessary**
-- `CONDITION_1`, `CONDITION_2`, `CONDITION_3` - Write your condition here iin this format ```["Product name", "Product price"]```
+- `CONDITION_1`, `CONDITION_2`, `CONDITION_3` - Write your condition here in this format:<br> ```["Product name", "Product price"]```
 
 ## Bugs 
 There is one invalid [link](https://biggeek.ru/catalog/uslugi) on the site that makes the script run indefinitely, because it finds products, but they are not visible to the user.
