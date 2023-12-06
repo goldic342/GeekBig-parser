@@ -2,3 +2,6 @@
 CONDITION_1 = ["PlayStation 5", "100 ₽"]
 CONDITION_2 = ["Air Pods Pro 2", "100 ₽"]
 CONDITION_3 = ["HomePod mini", "100 ₽"]
+
+#Debug status
+Debug = False
